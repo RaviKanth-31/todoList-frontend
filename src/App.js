@@ -8,7 +8,6 @@ function App() {
   const [toDo, setToDo] = useState([])
   const [text, setText] = useState("")
   const [isUpdating, setIsUpdating] = useState(false)
-  const [toDoId, setToDoId] = useState("")
 
   useEffect(() => {
     getAllToDo(setToDo)
